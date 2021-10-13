@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Dancing+Script&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+font-family: 'advent pro', sans-serif;
+padding: 0;
+margin: 0;
+}
+ul{
+    padding: 0;
+    margin:0;
+}
+
+li{
+    list-style-type: none;
+}
+h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2emm;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+/* *****************Navbar***************** */
+ nav{
+overflow: hidden;
+background-color: cornsilk;
+position: fixed;
+width:100%;
+}
+header li{
+    float: right;
+    font-size: 1.2em;
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo{
+    
+    font-family: 'dancing script';
+    float:left;
+    font-weight: bold;
+}
+#imagePrincipale{
+    padding-top: 60px;
+    background: url(media/Cours-de-musculation.jpg) no-repeat  fixed 50% 50%;
+    background-size: cover;
+    height: 765PX;
+}
+h1{
+
+    font-family: 'Dancing script', cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 4px 12px 3px crimson;
+
+}
+#premierTrait{
+     height: 1px;
+     width: 25%;
+     margin: -3px auto;
+     background-color: red;
+}
+#imagePrincipale h3{
+    padding-top: 120px;
+}
+h3{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    margin-top: 100px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 29px 9px 20px rgba(86,37,23,0);
+}
+/* ***********************presentation************************* */
+#presentation{
+    background-color: #fffae1;
+    padding: 10px 0px 100px 0;
+}
+#textintro{
+    font-size: 25px;
+    font-weight: 300;
+    padding: 0px 20%;
+}
+#prestation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.imagesprestation{
+    font-family: 'dancing script',cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagesprestation img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+    height: 160px;
+
+}
+.imagesprestation img:hover{
+    opacity: 0.5;
+    transform: scale(1.5);
+    transition: 0.8s ease-in-out;
+
+}
+#Lesmusclessecondaires{
+    height: 1400px;
+    background-color: #f1f2f6;
+    padding: 1px 2%;
+}
+#Lesmusclessecondaires h2{
+    padding-top: 60px;
+}
+#mollets{
+    background:url(media/musculation-mollets.jpg);
+}
+#trapézes{
+    background:url(media/trapéze.jpg);
+}
+#biceps{
+    background:url(media/musculation-des-biceps.jpg);
+}
+#triceps{
+    background:url(media/intro-triceps.jpg);
+    
+}
+#Lesmusclessecondaires li{
+    margin: 65px 100px 0 100px;
+    height: 255PX;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+
+}
+#Lesmusclessecondaires p{
+    box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    height: 45px;
+    width: 235px;
+    padding-top: 15px;
+    background-color: #01df74;
+    float: right;
+    margin: 50px -180px 0 0;
+}
+#Lesmusclessecondaires #trapézes ,#Lesmusclessecondaires #triceps{
+    float: right !important;
+}
+#trapézes p, #triceps p {
+    float: left;
+    background-color: cyan;
+    margin-left: -180px;
+    box-shadow: -4px 4px 0 1px rgba(15, 154, 156, 1);
+}
+/* ********************footer**************** */
+footer{
+    margin-top: 25px;
+    background-color: saddlebrown;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    color: seashell;
+
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input , textarea, button{
+border: none;
+width: 55%;
+padding: 15px 10px;
+margin: 1px;
+font-size: 1.2em;
+font-family: 'advent pro';
+border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-weight: 700;
+    background-color: slategray;
+}
+button:hover{
+    opacity: 0.5;
+    background-color: tomato;
+    transition: 0.3s ease-in-out;
+    color: #fffae1;
+    cursor: pointer;
+}
+#deuxiemetrait{
+    height: 1px;
+    width: 75%;
+    background-color: thistle;
+    margin: 60px auto;
+}
+#copyrighticons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: #fffae1;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .2rem;
+
+}
+#icons{
+    width: 50%;
+    text-align: right;
+}
+
+#icons a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: antiquewhite;
+}
+#icons a:hover   {
+    transform: scale(1.5);
+    transition: 0.1s;
+
+}
